@@ -172,6 +172,9 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
+.assignments-icons{
+  display: none;
+}
 .assignments-list {
 display: flex;
 flex-wrap: wrap;
@@ -681,6 +684,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .assignments-item {
     width: calc((100% - 24px) / 2);
+  }
+  .assignments-subtitle {
+    text-align: start;
   }
 }
 @media screen and (min-width: 1158px) {
